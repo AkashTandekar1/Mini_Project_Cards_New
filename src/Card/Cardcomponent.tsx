@@ -16,12 +16,12 @@ export default function Cardcomponent() {
   }>({
     imagedata:
       "https://www.simpleimageresizer.com/_uploads/photos/79b43382/kingfisher-2046453__340_50.jpg",
-    title: ["List Item Title", "List Item Title Subtitle"],
+    title: ["List Item Title", "List Item Title Subtitle"]
   });
 
   return (
-    <div>
-      <Container>
+    <div role='root'>
+      <Container data-testid="child">
         <CardContainer>
           <Imagecomponent imgdata={CardData} />
         </CardContainer>

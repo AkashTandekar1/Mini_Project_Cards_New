@@ -5,7 +5,7 @@ import Cardcomponent from './Card/Cardcomponent.tsx';
 function App() {
   return (
     <div className="App">
-           <Cardcomponent/>
+           <Cardcomponent className='akash'/>
     </div>
   );
 }
