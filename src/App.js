@@ -1,11 +1,11 @@
-import './App.css';
-import Cardcomponent from './Card/Cardcomponent.tsx';
+import Cardcomponent from "./Card/Cardcomponent.tsx";
 
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-           <Cardcomponent className='akash'/>
+      <Cardcomponent data-testid="text" />
     </div>
   );
 }
